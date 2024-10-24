@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h> 
 
 int add(int i, int j) {
     return (i + j);
@@ -64,12 +65,12 @@ int main() {
             case '^':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("The Square of the number %d is %d\n ", a , pow(a , 2));
                 break;
             case '#':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("The Cube of the number %d is %d\n", a , pow(a , 3));
                 break;
             case 'i':
                 printf("Enter an integer: ");
